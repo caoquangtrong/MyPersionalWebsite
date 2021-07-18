@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/logo.png" type="image/y-icon">
     <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="weather-box.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Home</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand mr-3">Tutorial Republic</a>
+            <a href="#" class="navbar-brand mr-3">CaoQuangTrong</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,19 +36,110 @@
 
     <div class="container-fluid">
         <div class="jumbotron">
+            <div class="dropdown weather-box">
+                <i class="fas fa-chevron-circle-down dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                    <span style="float: left;">
+                        <span style="margin-right: 5px; font-weight: bold;">TP. Ho Chi Minh</span>
+                        <span >
+                            <span style="margin-right: 0px; font-weight: normal;">29°C / 25-31°C</span>
+                            <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                        </span>
+                    </span>
+                </i>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                    <div class="panel panel-primary box-weather" id="result_panel">
+                        <div class="panel-heading">
+                            Weather
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li city="tphochiminh">
+                                    TP. Hue
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Da nang
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Ba ria vung tau
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                                <li city="tphochiminh">
+                                    TP. Hồ Chí Minh
+                                    <span>32°C
+                                        <img src="https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png" alt="">
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h1>Learn to Create Websites</h1>
-            <p class="lead">In today's world internet is the most popular way of connecting with the people. At <a
-                    href="https://www.tutorialrepublic.com" target="_blank">tutorialrepublic.com</a> you will learn the
-                essential web development technologies along with real life practice examples, so that you can create
-                your own website to connect with the people around the world.</p>
-            <p><a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Get started
-                    today</a></p>
+            <p class="lead">In today's world internet is the most popular way of connecting with the people. At <a href="https://www.tutorialrepublic.com" target="_blank">tutorialrepublic.com</a> you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world.</p>
+            <div>
+                <a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Get started today</a>
+            </div>
         </div>
-
         <div class="row">
             <div class="col-md-3">
                 <div class="nav-side-menu">
-                    <div class="brand">Brand Logo</div>
+                    <div class="brand">Menu Service</div>
                     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
                     <div class="menu-list">
                         <ul id="menu-content" class="menu-content collapse out">
@@ -105,49 +196,62 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div>           
             </div>
             <div class="col-md-9 right-content">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>HTML</h2>
-                        <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own website.</p>
-                        <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+                    <div class="login-form">
+                        <form action="/examples/actions/confirmation.php" method="post">
+                            <h2>Login</h2>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input id="password-field" type="password" class="form-control" name="password" placeholder="Password" required="required">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+                            </div> 
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+                            </div>
+                            <div class="clearfix">
+                                <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
+                                <a href="#" class="float-right">Forgot Password</a>
+                            </div>
+                        </form>
+                        <div class="row justify-content-center mt-2">
+                            <div class="btn btn-info">Create an account</div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>CSS</h2>
-                        <p>CSS is used for describing the presentation of web pages. CSS can save a lot of time and effort. Our CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the style and layout of your website.</p>
-                        <p><a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>JavaScript</h2>
-                        <p>JavaScript is the most popular and widely used client-side scripting language. Our JavaScript tutorials will provide in-depth knowledge of the JavaScript including ES6 features, so that you can create interactive websites.</p>
-                        <p><a href="https://www.tutorialrepublic.com/javascript-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>Bootstrap</h2>
-                        <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can easily create responsive websites.</p>
-                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>PHP</h2>
-                        <p>PHP is the most popular server-side scripting language for creating dynamic web pages. Our PHP tutorials will help you to learn all the features of latest PHP7 scripting language so that you can easily create dynamic websites.</p>
-                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>SQL</h2>
-                        <p>SQL is a standard language designed for managing data in relational database management system. Our SQL tutorials will help you to learn the fundamentals of the SQL language so that you can efficiently manage your databases.</p>
-                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>References</h2>
-                        <p>Our references section outlines all the standard HTML5 tags and CSS3 properties along with other useful references such as color names and values, character entities, web safe fonts, language codes, HTTP messages, and more.</p>
-                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <h2>FAQ</h2>
-                        <p>Our Frequently Asked Questions (FAQ) section is an extensive collection of FAQs that provides quick and working solution of common questions and queries related to web design and development with live demo.</p>
-                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+
+                    <div class="signup-form">
+                        <form action="/examples/actions/confirmation.php" method="post">
+                            <h2>Register</h2>
+                            <p class="hint-text">Create your account. It's free and only takes a minute.</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="fullname" placeholder="Fullname" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input id="password-field" type="password" class="form-control" name="password" placeholder="Password" required="required">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+                            </div>
+                            <div class="form-group">
+                                <input id="password-field-confirm" type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+                                <span toggle="#password-field-confirm" class="fa fa-fw fa-eye-slash field-icon toggle-password-confirm"></span>
+                            </div>        
+                            <div class="form-group">
+                                <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+                            </div>
+                        </form>
+                        <div class="text-center">Already have an account? <a href="#"> Login</a></div>
                     </div>
                 </div>
             </div>
@@ -169,6 +273,7 @@
     <script src="lib/jquery-3.2.1.slim.min.js"></script>
     <script src="lib/popper.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

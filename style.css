@@ -5,7 +5,12 @@ body {
 
 /* Header content */
 .jumbotron {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+    padding: 1rem 2rem;
+}
+
+.navbar{
+  margin-bottom: .5rem;
 }
 
 /* left side menu bar */
@@ -19,9 +24,10 @@ body {
 }
 .nav-side-menu .brand {
   background-color: #e9ecef;
-  line-height: 50px;
+  line-height: 40px;
   display: block;
   text-align: center;
+  font-weight: 600;
 }
 .nav-side-menu .toggle-btn {
   display: none;
@@ -155,3 +161,57 @@ body {
     text-align: center;
 }
 
+/* register form */
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+  margin-right: 10px;
+}
+
+.signup-form{
+  margin: auto;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.signup-form h2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hint-text{
+  color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* login form */
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+  margin-right: 10px;
+}
+
+.login-form{
+  margin: auto;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.login-form h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.weather-box{
+  float: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
